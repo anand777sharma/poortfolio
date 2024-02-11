@@ -30,7 +30,7 @@
    
     .aboutimg{
         position: relative;
-        margin: -15px 0px 15px -15px
+        margin: -15px 0px 15px -20px
     }
     .aboutimg{
         width: 250px;
@@ -48,13 +48,19 @@
         z-index: -1;
     }
     .display-1{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .portfolio-btn{
-        font-size: 12px !important;
+        font-size: 14px !important;
     }
     .footer{
         font-size: 16px !important;
      
+    }
+    .fs-5{
+        font-size: 14px !important;
+    }
+    .col-lg-6 .px-5{
+        padding: 0 10px !important;
     }
 }
