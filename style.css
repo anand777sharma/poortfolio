@@ -1,0 +1,31 @@
+.home-page{
+    height: 100vh;
+}
+.image-container{
+    width: 520px;
+    border: 15px solid;
+}
+.nav-link:active{
+    color: #ffc107;
+}
+.aboutimg{
+    position: relative;
+    margin: -61px 0px 38px -47px
+}
+.heading{
+    color:#433f3f64;
+    font-size: 14rem;
+    font-weight: 800;
+    position: relative;
+    margin: -285px 0 0 0;
+    z-index: -1;
+}
+
+.portfolio-image-container{
+    width: 259px;
+    border: 10px solid;
+}
+
+/* .portfolioimg{
+    transition: 0.3s ease;
+} */
