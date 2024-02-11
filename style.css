@@ -26,6 +26,32 @@
     border: 10px solid;
 }
 
-/* .portfolioimg{
-    transition: 0.3s ease;
-} */
+@media (max-width: 991.98px) {
+   
+    .aboutimg{
+        position: relative;
+        margin: -15px 0px 15px -15px
+    }
+    .aboutimg{
+        width: 250px;
+    }
+    .image-container{
+        width: 250px;
+        border: 5px solid;
+    }
+    .heading{
+        color:#433f3f64;
+        font-size: 4rem;
+        font-weight: 800;
+        position: relative;
+        margin: -120px 0 0 0;
+        z-index: -1;
+    }
+    .display-1{
+        font-size: 1.5rem;
+    }
+    .footer{
+        font-size: 16px !important;
+     
+    }
+}
