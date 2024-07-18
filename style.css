@@ -1,5 +1,16 @@
+*{
+    cursor: none;
+}
 .home-page{
     height: 85vh;
+}
+.customCursor{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #ffc107;
+    position: fixed;
+  z-index: 10;
 }
 .image-container{
     width: 520px;
@@ -24,6 +35,11 @@
 .portfolio-image-container{
     width: 259px;
     border: 10px solid;
+}
+.changeText::after{
+    content: "|";
+    color: #ffc107;
+    font-weight: 400;
 }
 
 @media (max-width: 991.98px) {

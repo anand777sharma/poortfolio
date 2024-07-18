@@ -5,15 +5,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    <script src="script.js" defer></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="bg-dark">
+    <div class="customCursor"></div>
     <div class="container">
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg">
@@ -61,9 +65,7 @@
                         <div class="mb-5 pb-5">
                             <span class="display-4 fw-bold text-secondary ps-4">
                                 i am,
-                            </span> <br>
-                            <span class="display-1 fw-bold text-light ps-4">
-                                Web Developer<span class="text-warning">.</span>
+                            </span> <br>   <span class="display-1 fw-bold text-light ps-4 changeText"><span class="text-warning"></span>
                             </span> <br>
                             <button class="btn btn-lg rounded-3 btn-warning ms-4 mt-5">
                                 Contact Me
@@ -343,17 +345,17 @@
 
             <nav class="d-flex justify-content-center">
                 <div class="nav justify-content-center" id="nav-tab" role="tablist">
-                    <button class="nav-link portfolio-btn px-2 text-light fs-3 active" id="nav-Logo-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-Logo" type="button" aria-controls="nav-home"
+                    <button class="nav-link portfolio-btn px-2 text-light fs-3 active" id="nav-Logo-tab"
+                        data-bs-toggle="tab" data-bs-target="#nav-Logo" type="button" aria-controls="nav-home"
                         aria-selected="true">Logo</button>
-                    <button class="nav-link text-light fs-3 portfolio-btn px-2" id="nav-Frontend-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-Frontend" type="button" aria-controls="nav-profile"
+                    <button class="nav-link text-light fs-3 portfolio-btn px-2" id="nav-Frontend-tab"
+                        data-bs-toggle="tab" data-bs-target="#nav-Frontend" type="button" aria-controls="nav-profile"
                         aria-selected="false">Frontend</button>
-                    <button class="nav-link text-light fs-3 portfolio-btn px-2" id="nav-Backend-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-Backend" type="button" aria-controls="nav-contact"
+                    <button class="nav-link text-light fs-3 portfolio-btn px-2" id="nav-Backend-tab"
+                        data-bs-toggle="tab" data-bs-target="#nav-Backend" type="button" aria-controls="nav-contact"
                         aria-selected="false">Backend</button>
-                    <button class="nav-link text-light fs-3 portfolio-btn px-2" id="nav-Fullstack-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-Fullstack" type="button" aria-controls="nav-disabled"
+                    <button class="nav-link text-light fs-3 portfolio-btn px-2" id="nav-Fullstack-tab"
+                        data-bs-toggle="tab" data-bs-target="#nav-Fullstack" type="button" aria-controls="nav-disabled"
                         aria-selected="false">Fullstack</button>
                 </div>
             </nav>
@@ -664,7 +666,7 @@
                                 Email
                             </p>
                             <p class="fs-6 text-light">
-                              matrixmind777@gmail.com
+                                matrixmind777@gmail.com
                             </p>
                         </div>
 
@@ -676,7 +678,7 @@
                                 Country
                             </p>
                             <p class="fs-6 text-light">
-                               India
+                                India
                             </p>
                         </div>
 
@@ -741,7 +743,7 @@
 
     </div>
     <div class="bg-secondary py-2 d-flex justify-content-center align-items-center ">
-       
+
         <p class="fs-5 text-light p-3 footer">
             Made with ❤️ by Anand Sharma <span class="text-warning footer">matrixmind777@gmail.com</span>
         </p>
