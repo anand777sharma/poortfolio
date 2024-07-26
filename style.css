@@ -12,6 +12,16 @@
     position: fixed;
   z-index: 10;
 }
+.profile-pic-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-pic{
+    margin-top: -100px;
+    height: 500px;
+    rotate: 90deg;
+}
 .image-container{
     width: 520px;
     border: 15px solid;
