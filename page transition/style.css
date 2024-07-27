@@ -44,18 +44,21 @@ a {
     top: 0;
     left: 0;
     pointer-events: none;
-    background: #5d5252;
+    background: #ffffff;
     transform: scaleX(0);
 }
 
+
 .pagename {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(50%, -50%);
-    color: #000 !important;
+    top: 40%;
+    right: 60%;
+    transform: translate(-50%, -50%);
     text-align: center;
     z-index: 60;
+}
+.pagename h1{
+    color: rgb(0, 0, 0);
 }
 
 .container {

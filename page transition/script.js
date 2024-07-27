@@ -4,14 +4,14 @@ function pageTransition() {
         duration: 1,
         scaleX: 1,
         transformOrigin: "right",
-        ease: "sine.out",
+       ease: "bounce.out",
     });
     t1.to(".transition", {
         duration: 1,
         scaleX: 0,
         transformOrigin: "left",
-        ease: "sine.out",
-        delay: 0.2,
+       ease: "none",
+        delay: 0.5,
     });
 }
 
